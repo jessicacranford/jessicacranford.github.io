@@ -587,9 +587,12 @@ M-NAV STYLING
     #header .wrap, #page-content .wrap, #news-events .wrap, #donate .wrap, #footer .wrap {
         width: 90%;
     }
+    #page-content .left-bg, #page-content .right-bg {
+        width: 4%;
+    }
 }
 @media screen and (max-width:800px){ 
-    #nav {
+    #nav, #page-content .left-bg, #page-content .right-bg {
         display: none;
     }
     #hamburger {
