@@ -283,11 +283,17 @@ M-NAV STYLING
     transform: translate(-50%, -50%);
     text-align: center;
 /*    text-shadow: 0px 0px 10px #000000;*/
-    color: #02477e;
+    color: #fff;
 }
 #slider .caption h2 {
     text-transform: uppercase;
-    color: #02477e;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000000;
+}
+#slider .caption p {
+    text-shadow: 0px 0px 10px #000000;
+    color: #fff;
+    font-weight: 700;
 }
 #slider a.button {
     display: inline-block;
@@ -304,6 +310,7 @@ M-NAV STYLING
     cursor: pointer;
     transition: 0.2s all ease;
     text-shadow: none;
+    line-height: 30px;
 }
 #slider a.button:hover {
     background: #fdc00d;
