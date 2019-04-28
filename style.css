@@ -600,10 +600,13 @@ M-NAV STYLING
         display: block;
     }
     #slider {
-        
+        height: 400px;
     }
     #slider img {
-        min-height: 400px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
     }
     #news-events .wrap {
         flex-flow: column nowrap;
